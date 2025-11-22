@@ -37,7 +37,6 @@ export function MiniAppProvider({ children }: { children: React.ReactNode }) {
             })
           )
           .catch(console.error),
-        ,
       ]);
 
       await sdk.actions.ready().catch(console.error);
@@ -56,3 +55,4 @@ export function MiniAppProvider({ children }: { children: React.ReactNode }) {
 export function useMiniAppContext() {
   return useContext(MiniAppContext);
 }
+export { MiniAppContext };

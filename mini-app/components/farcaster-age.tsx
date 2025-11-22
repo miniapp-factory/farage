@@ -6,7 +6,7 @@ import { Share } from "@/components/share";
 import { url } from "@/lib/metadata";
 
 export default function FarcasterAge() {
-  const { sdk, context, isInMiniApp } = useContext(MiniAppContext);
+  const { sdk, context, isInMiniApp } = useContext<MiniAppContext>(MiniAppContext);
   const [age, setAge] = useState<number | null>(null);
 
   useEffect(() => {
