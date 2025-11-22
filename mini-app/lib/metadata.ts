@@ -1,3 +1,3 @@
-export const title = "Mini App Factory App";
-export const description = "This app was created by the Mini App Factory!";
+export const title = "Farcaster Age App";
+export const description = "Show your Farcaster age and share it with friends.";
 export const url = process.env.NEXT_PUBLIC_URL;
